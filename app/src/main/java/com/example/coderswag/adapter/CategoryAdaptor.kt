@@ -7,7 +7,6 @@ import android.view.ViewGroup
 import android.widget.BaseAdapter
 import android.widget.ImageView
 import android.widget.TextView
-import androidx.recyclerview.widget.RecyclerView
 import com.example.coderswag.R
 import com.example.coderswag.model.Category
 
@@ -37,8 +36,8 @@ class CategoryAdapter(context: Context, categories: List<Category>):BaseAdapter(
             categoryView = LayoutInflater.from(context).inflate(R.layout.category_list_item, null)
             holder = ViewHolder()
 
-            holder.categoryImage = categoryView.findViewById(R.id.hatcatimage)
-            holder.categoryName = categoryView.findViewById(R.id.hatcatname)
+            holder.categoryImage = categoryView.findViewById(R.id.catimage)
+            holder.categoryName = categoryView.findViewById(R.id.catname)
 
             categoryView.tag = holder
         } else{

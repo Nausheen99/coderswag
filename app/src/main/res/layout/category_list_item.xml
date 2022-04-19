@@ -3,10 +3,10 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:layout_height="150dp">
+    android:layout_height="166dp">
 
     <ImageView
-        android:id="@+id/hatcatimage"
+        android:id="@+id/catimage"
         android:layout_width="0dp"
         android:layout_height="150dp"
         android:scaleType="centerCrop"
@@ -18,7 +18,7 @@
         tools:srcCompat="@drawable/hatimage" />
 
     <TextView
-        android:id="@+id/hatcatname"
+        android:id="@+id/catname"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="HATS"
@@ -26,7 +26,7 @@
         android:textSize="24sp"
         android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="@+id/hatcatimage"
-        app:layout_constraintStart_toStartOf="@+id/hatcatimage"
-        app:layout_constraintTop_toTopOf="@+id/hatcatimage" />
+        app:layout_constraintEnd_toEndOf="@+id/catimage"
+        app:layout_constraintStart_toStartOf="@+id/catimage"
+        app:layout_constraintTop_toTopOf="@+id/catimage" />
 </androidx.constraintlayout.widget.ConstraintLayout>
